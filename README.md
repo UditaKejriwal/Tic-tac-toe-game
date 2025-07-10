@@ -56,6 +56,7 @@ Players take turns entering a number from 1–9 corresponding to a grid cell:
 ---------
 7 | 8 | 9
 
+
 The board updates in real time after each turn.
 
 A win is detected when a player has 3 of their symbols in a row (horizontally, vertically, or diagonally).
@@ -63,20 +64,23 @@ A win is detected when a player has 3 of their symbols in a row (horizontally, v
 If no win occurs after all cells are filled, the game ends in a tie.
 
 ### 🧠 Notes
-Winning logic uses bitwise & to compare board states, which works but may not be intuitive.
+<ul>
+<li>Winning logic uses bitwise & to compare board states, which works but may not be intuitive.
 
-The current implementation does not handle invalid input or already occupied cells—this can be improved.
+<li>The current implementation does not handle invalid input or already occupied cells—this can be improved.
 
-The winner detection logic assumes that Player 1 is always "X" and Player 2 is "O".
+<li>The winner detection logic assumes that Player 1 is always "X" and Player 2 is "O".
+</ul>
 
 ### ✅ Future Improvements
-Add input validation (e.g., prevent overwriting occupied cells).
+<ul>
+<li>Add input validation (e.g., prevent overwriting occupied cells).
 
-Improve win-detection logic for readability and correctness.
+<li>Improve win-detection logic for readability and correctness.
 
-Add a GUI using Java Swing or JavaFX.
+<li>Add a GUI using Java Swing or JavaFX.
 
-Store game history or statistics.
-
+<li>Store game history or statistics.
+</ul>
 ### 🧑‍💻 Author
 Udita Kejriwal
