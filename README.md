@@ -55,6 +55,7 @@ Players take turns entering a number from 1–9 corresponding to a grid cell:
 4 | 5 | 6
 ---------
 7 | 8 | 9
+---------
 
 
 The board updates in real time after each turn.
@@ -82,5 +83,6 @@ If no win occurs after all cells are filled, the game ends in a tie.
 
 <li>Store game history or statistics.
 </ul>
-### 🧑‍💻 Author
+
+### Author
 Udita Kejriwal
