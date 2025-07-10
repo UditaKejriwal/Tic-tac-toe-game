@@ -55,6 +55,7 @@ Players take turns entering a number from 1–9 corresponding to a grid cell:
 4 | 5 | 6
 ---------
 7 | 8 | 9
+
 The board updates in real time after each turn.
 
 A win is detected when a player has 3 of their symbols in a row (horizontally, vertically, or diagonally).
