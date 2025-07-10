@@ -45,7 +45,7 @@ To run the game:
 java tictactoe.Tictactoe
 ```
 
-###📋 Game Rules
+### 📋 Game Rules
 The first player is prompted to enter their name, followed by the second player.
 
 Players take turns entering a number from 1–9 corresponding to a grid cell:
@@ -62,14 +62,14 @@ A win is detected when a player has 3 of their symbols in a row (horizontally, v
 
 If no win occurs after all cells are filled, the game ends in a tie.
 
-###🧠 Notes
+### 🧠 Notes
 Winning logic uses bitwise & to compare board states, which works but may not be intuitive.
 
 The current implementation does not handle invalid input or already occupied cells—this can be improved.
 
 The winner detection logic assumes that Player 1 is always "X" and Player 2 is "O".
 
-###✅ Future Improvements
+### ✅ Future Improvements
 Add input validation (e.g., prevent overwriting occupied cells).
 
 Improve win-detection logic for readability and correctness.
@@ -78,5 +78,5 @@ Add a GUI using Java Swing or JavaFX.
 
 Store game history or statistics.
 
-###🧑‍💻 Author
+### 🧑‍💻 Author
 Udita Kejriwal
